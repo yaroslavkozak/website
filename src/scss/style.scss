@@ -1,7 +1,6 @@
 //Custom Styles for the site 
+$bg-color: red;
 
-$bg-color: red; 
-body 
-{ 
-    background-color: $bg-color; 
+body {
+    background: $bg-color;
 }
