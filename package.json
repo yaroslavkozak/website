@@ -1,0 +1,30 @@
+{
+  "name": "Website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yaroslavkozak/website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yaroslavkozak/website/issues"
+  },
+  "homepage": "https://github.com/yaroslavkozak/website#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "gulp": "^4.0.0",
+    "gulp-sass": "^4.0.2"
+  },
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.7"
+  }
+}
