@@ -1,39 +1,29 @@
-/* // Custom.scss
+.bg-primary {
+    background-color: #d82323 !important;
 
-// Variables
-// $body-bg: #222;
-// $body-color:#fff; 
-
-
-$body-bg: #222;
-$theme-colors: ("primary":#d82323);
-$yiq-text-light:#fff;
-$yiq-text-dark:#fff; */
-
-
-/* // #button
-// { 
-//     display: block; 
-//     position: relative;
-//     left:0; 
-//     top:0; 
-//     width:100%; 
-//     height:100%; 
-// } */
-
-
-
-.bg-primary
-{ 
-    background-color:#d82323 !important;
 }
 
 body {
     background-color: #222;
-    color:#fff; 
+    color: red;
 }
 
-.btn-primary { background-color: red; }
+.btn-primary {
+    background-color: red !important;
+    border-color: #d82323 !important;
+}
+
+a.bg-primary:hover,
+a.bg-primary:focus,
+button.bg-primary:hover,
+button.bg-primary:focus,
+a.bg-secondary:hover, a.bg-secondary:focus,
+button.bg-secondary:hover,
+button.bg-secondary:focus
+{
+    outline-color: #d82323 !important;
+    border-color: #d82323 !important;
+}
 
 p,
 h1,
