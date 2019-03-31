@@ -43,6 +43,11 @@ a {
 }
 
 
+.nav-link
+{ 
+    font-weight: bold !important;
+}
+
 .hero {
     padding-top: 10% !important;
     height: 650px !important;
