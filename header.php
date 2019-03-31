@@ -1,6 +1,8 @@
-<?php 
-ini_set('display_errors', 1);
-error_reporting(E_ALL); 
+<?php
+    if(!isset($_SESSION)) 
+    { 
+        session_start(); 
+    } 
 ?>
 
 <!DOCTYPE html>
@@ -94,4 +96,4 @@ error_reporting(E_ALL);
 
       </div>
     </nav>  
-    </header>
+                </header>
