@@ -28,7 +28,7 @@ if (isset($_POST["login"]))
 { 
   $username = $_POST["username"];
 $password = $_POST["password"];
-$connect_file=$_SERVER["DOCUMENT_ROOT"]. "connect.php";
+$connect_file=$_SERVER["DOCUMENT_ROOT"]. "/connect.php";
 include($connect_file);
 
 
