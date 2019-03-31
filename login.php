@@ -28,7 +28,7 @@ include($connect_file);
 
   
 try {
-  $results = $db->prepare("select * from pusers where email=? and password=?");
+  $results = $db->prepare("select * from users where email=? and password=?");
   $results->bindParam(1, $username);
   $results->bindParam(2, $password);
   $results->execute();
