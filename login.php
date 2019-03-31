@@ -58,8 +58,7 @@ try {
 
 ?>
   
-    <div id="message"> <?php echo $message ?>
-  </div>
+
 
    </main>
 <?php
