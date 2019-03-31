@@ -3,16 +3,56 @@
 // $body-color:#fff; 
 
 
-$body-bg: #ededed; 
+$body-bg: #222;
 $theme-colors: ("primary":#d82323);
+$yiq-text-light:#fff;
+$yiq-text-dark:#fff;
 
 
-.jumbotron 
+
+
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+a {
+    color: white !important;
+}
+
+.social-icons 
 { 
-    background-color: #ededed !important;
-    border-top:3px solid rgb(219,219,219);  
+    color:#222 !important; 
 }
 
 
+.dropdown-item {
+    color: #222 !important;
+}
+
+
+.hero
+{ 
+    height:450px !important; 
+}
+
+.jumbotron {
+    background-color: #222 !important;
+    //border-top: 3px solid rgb(219, 219, 219);
+}
+
+
+.card {
+    background-color: #222 !important;
+}
+
+
+.project
+{ 
+    background-color: #333;
+    padding:25px;  
+}
 // Bootstrap Sass
 @import "node_modules/bootstrap/scss/bootstrap";
