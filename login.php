@@ -1,4 +1,7 @@
-
+<?php 
+ini_set('display_errors', 1);
+error_reporting(E_ALL);
+ ?>
 
 
 <?php
@@ -43,7 +46,7 @@ try {
     $_SESSION["username"] = $username;
     $message ="Welcome " .$username;
     ?>
-    <meta http-equiv="refresh" content="3; url=/" /> 
+    <meta http-equiv="refresh" content="3; url=index.php" /> 
  <?php
   }
 } catch (Exception $e) {
