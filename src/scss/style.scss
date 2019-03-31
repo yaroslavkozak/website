@@ -35,7 +35,9 @@ a {
 
 .hero
 { 
-    height:450px !important; 
+    padding-top:10% !important; 
+    height:650px !important;
+     
 }
 
 .jumbotron {
@@ -52,7 +54,8 @@ a {
 .project
 { 
     background-color: #333;
-    padding:25px;  
+    padding:25px;
+      
 }
 // Bootstrap Sass
 @import "node_modules/bootstrap/scss/bootstrap";

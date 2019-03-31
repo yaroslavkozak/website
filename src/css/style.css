@@ -14,7 +14,8 @@ a {
   color: #222 !important; }
 
 .hero {
-  height: 450px !important; }
+  padding-top: 10% !important;
+  height: 650px !important; }
 
 .jumbotron {
   background-color: #222 !important; }
