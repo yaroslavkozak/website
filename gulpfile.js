@@ -4,12 +4,6 @@ var browserSync = require('browser-sync').create();
 
 var sass = require('gulp-sass');
 
-gulp.task('task-name',function()
-{ 
-    return gulp.src('source-files')
-    .pipe(aGulpPlugin())
-    .pipe(gulp.dest('destination'))
-})
 
 // Compile sass into CSS & auto-inject into browsers
 

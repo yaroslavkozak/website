@@ -23,9 +23,24 @@ a {
 .card {
   background-color: #222 !important; }
 
+#posts-menu a {
+  margin: 3px !important; }
+
+.background {
+  padding-top: 50px !important;
+  padding-bottom: 50px !important; }
+
 .project {
   background-color: #333;
-  padding: 25px; }
+  padding: 25px;
+  box-sizing: border-box !important; }
+
+#project:hover {
+  cursor: pointer;
+  box-shadow: 0 0 2px 1px #333; }
+
+.footer {
+  padding-top: 50px; }
 
 /*!
  * Bootstrap v4.3.1 (https://getbootstrap.com/)
