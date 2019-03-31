@@ -1,29 +1,27 @@
-.bg-primary {
-    background-color: #d82323 !important;
+body {
+    background-color: #222;
 
 }
 
-body {
-    background-color: #222;
-    color: red;
+.bg-primary {
+    background-color: #d82323 !important;
+}
+
+.btn {
+    background-color: #d82323 !important;
+    outline-color: #d82323 !important;
+
 }
 
 .btn-primary {
     background-color: red !important;
     border-color: #d82323 !important;
+    outline-color: #d82323 !important;
 }
 
-a.bg-primary:hover,
-a.bg-primary:focus,
-button.bg-primary:hover,
-button.bg-primary:focus,
-a.bg-secondary:hover, a.bg-secondary:focus,
-button.bg-secondary:hover,
-button.bg-secondary:focus
-{
-    outline-color: #d82323 !important;
-    border-color: #d82323 !important;
-}
+
+
+
 
 p,
 h1,
@@ -53,7 +51,7 @@ a {
 
 .jumbotron {
     background-color: #222 !important;
-    //border-top: 3px solid rgb(219, 219, 219);
+    /* border-top: 3px solid rgb(219, 219, 219); */
 }
 
 
@@ -63,6 +61,7 @@ a {
 
 #posts-menu a {
     margin: 3px !important;
+    background-color: #d82323;
 }
 
 .background {
