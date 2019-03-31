@@ -46,7 +46,7 @@ try {
     $_SESSION["username"] = $username;
     $message ="Welcome " .$username;
     ?>
-    <meta http-equiv="refresh" content="3; url=index.php" /> 
+    <meta http-equiv="refresh" content="1; url=index.php" /> 
  <?php
   }
 } catch (Exception $e) {
