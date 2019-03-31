@@ -81,7 +81,7 @@
             <li class="nav-item">
               <?php echo $_SESSION["username"]; 
                  if ($_SESSION["is_admin"] == 'Y') { ?>
-                    <meta http-equiv="refresh" content="0; url=index.php" /> 
+                    <!-- <meta http-equiv="refresh" content="0; url=index.php" />  -->
               <?php
                  }?>
               
