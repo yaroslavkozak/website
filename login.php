@@ -1,7 +1,4 @@
-<?php 
-ini_set('display_errors', 1);
-error_reporting(E_ALL);
- ?>
+
 
 
 <?php
@@ -46,11 +43,11 @@ try {
     $_SESSION["username"] = $username;
     $message ="Welcome " .$username;
     ?>
-    <meta http-equiv="refresh" content="3; url=index.php" /> 
+    <meta http-equiv="refresh" content="3; url=/" /> 
  <?php
   }
 } catch (Exception $e) {
-   echo "Data could not be retrieved from the database." . $e;
+   echo "Data could not be retrieved from the database." . $e; 
    exit;
 }
   
