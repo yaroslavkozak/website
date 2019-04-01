@@ -159,16 +159,16 @@ include('header.php');
 
 
     <!-- jQuery -->
-    <script src="jquery-2.1.1.js"></script>
+    <script src="/portfolio/jquery-2.1.1.js"></script>
     <!--  plugins -->
-    <script src="bootstrap.min.js"></script>
-    <script src="menu.js"></script>
-    <script src="animated-headline.js"></script>
-    <script src="isotope.pkgd.min.js"></script>
+    <script src="/portfolio/bootstrap.min.js"></script>
+    <script src="/portfolio/menu.js"></script>
+    <script src="/portfolio/animated-headline.js"></script>
+    <script src="/portfolio/isotope.pkgd.min.js"></script>
 
 
     <!--  custom script -->
-    <script src="custom.js"></script>
+    <script src="/portfolio/custom.js"></script>
 
 
 
