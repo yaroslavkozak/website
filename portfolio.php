@@ -155,10 +155,10 @@ include('header.php');
     
     <!-- <link href="/portfolio/style.css" rel="stylesheet"> -->
     <script src="/portfolio/modernizr.js"></script> 
-    <link rel="stylesheet" href="/css/custom.css" />
+    <!-- <link rel="stylesheet" href="/css/custom.css" /> -->
 
     <!-- jQuery -->
-    <script src="/portfolio/jquery-2.1.1.js"></script>
+    <!-- <script src="/portfolio/jquery-2.1.1.js"></script> -->
     <!--  plugins -->
     <!-- <script src="/portfolio/bootstrap.min.js"></script> -->
     <script src="/portfolio/menu.js"></script>
@@ -179,6 +179,6 @@ include('header.php');
 
 
 
-
-    </body>
-</html>
+    <?php
+include('header.php');
+?>
