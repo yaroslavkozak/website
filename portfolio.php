@@ -26,7 +26,7 @@ include('header.php');
                 <!-- portfolio_container -->
                 <div class="no-padding portfolio_container clearfix">
                     <!-- single work -->
-                    <div class="col-md-4 col-sm-6 web">
+                    <div class="col-md-4 col-sm-6 web p-0">
                         <a href="single-project.html" class="portfolio_item">
                             <img src="/assets/portfolio/xenum.jpg" alt="image" class="img-responsive"
                                 style="width:100%; height:100%;" />
@@ -43,7 +43,7 @@ include('header.php');
                     <!-- end single work -->
 
                     <!-- single work -->
-                    <div class="col-md-4 col-sm-6 ads branding">
+                    <div class="col-md-4 col-sm-6 ads branding p-0">
                         <a href="single-project.html" class="portfolio_item">
                             <img src="/assets/portfolio/xenum.jpg" alt="image" class="img-responsive"
                                 style="width:100%; height:100%;" />
@@ -61,7 +61,7 @@ include('header.php');
                     <!-- end single work -->
 
                     <!-- single work -->
-                    <div class="col-md-4 col-sm-12 web">
+                    <div class="col-md-4 col-sm-12 web p-0">
                         <a href="single-project.html" class="portfolio_item">
                             <img src="/assets/portfolio/oximo.jpg" alt="image" class="img-responsive"
                                 style="width:100%; height:100%;" />
@@ -78,7 +78,7 @@ include('header.php');
                     <!-- end single work -->
 
                     <!-- single work -->
-                    <div class="col-md-4 col-sm-6 ads">
+                    <div class="col-md-4 col-sm-6 ads p-0">
                         <a href="single-project.html" class="portfolio_item">
                             <img src="/assets/portfolio/xenum-marketing.jpg" alt="image" class="img-responsive"
                                 style="width:100%; height:100%;" />
@@ -95,7 +95,7 @@ include('header.php');
                     <!-- end single work -->
 
                     <!-- single work -->
-                    <div class="col-md-4 col-sm-6 design">
+                    <div class="col-md-4 col-sm-6 design p-0">
                         <a href="single-project.html" class="portfolio_item">
                             <img src="/assets/portfolio/park-dental-logo.png" alt="image" class="img-responsive"
                                 style="width:100%; height:100%;" />
@@ -112,7 +112,7 @@ include('header.php');
                     <!-- end single work -->
 
                     <!-- single work -->
-                    <div class="col-md-4 col-sm-12 ads">
+                    <div class="col-md-4 col-sm-12 ads p-0">
                         <a href="single-project.html" class="portfolio_item">
                             <img src="/assets/portfolio/oximo-marketing.jpg" alt="image" class="img-responsive"
                                 style="width:100%; height:100%;" />
@@ -161,7 +161,7 @@ include('header.php');
     <script src="/portfolio/jquery-2.1.1.js"></script>
     <!--  plugins -->
     <script src="/portfolio/bootstrap.min.js"></script>
-    <script src="/portfolio/menu.js"></script>
+    <!-- <script src="/portfolio/menu.js"></script> -->
     <script src="/portfolio/animated-headline.js"></script>
     <script src="/portfolio/isotope.pkgd.min.js"></script>
 
