@@ -1,8 +1,7 @@
 <?php
 include('header.php');
 ?>
- <main role="main" style="
-    margin: 50px;">
+ 
 	<h1>
      Portfolio
      </h1>
@@ -144,13 +143,7 @@ include('header.php');
     <!-- end main container -->
 
 
-    <!-- footer -->
-    <footer>
-        <div class="container-fluid">
-            <p class="copyright">© Box Portfolio 2016</p>
-        </div>
-    </footer>
-    <!-- end footer -->
+    
 
     <!-- back to top -->
     <a href="#0" class="cd-top"><i class="ion-android-arrow-up"></i></a>
