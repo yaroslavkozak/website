@@ -18,7 +18,7 @@
 
 
     <link rel="stylesheet" href="/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="css/custom.css" />
+    <link rel="stylesheet" href="css/custom.css" media="all"/>
   </head>
 
   <body>
@@ -252,7 +252,7 @@
     
     <!-- <link href="/portfolio/style.css" rel="stylesheet"> -->
     <script src="/portfolio/modernizr.js"></script> 
-    <link rel="stylesheet" href="/css/custom.css" />
+
 
     <!-- jQuery -->
     <script src="/portfolio/jquery-2.1.1.js"></script>
