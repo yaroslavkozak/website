@@ -1,35 +1,11 @@
-/* Table of Content
-==================================================
-	- Google fonts & font family -
-	- General -
-    - typography -
-    - Preloader -
-	- Header -
-    - box intro section -
-    - Portfoilo section -
-    - Footer -
-    - About page -
-    - Services page -
-    - contact page -
-    - Portfolio single page -
-    - Responsive media queries -
-*/
-
-
-/* Google fonts & font family
-==================================================*/
-
-/* @import url(https://fonts.googleapis.com/css?family=Poppins:400,500,600,700); */
-
-/* General
-==================================================*/
+/* 
 
 html,
 body {
     height: 100%;
-    /* font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
     line-height: 1.8;
-    color: #999 */
+    color: #999
 }
 
 .no-padding {
@@ -63,13 +39,13 @@ a {
 .color {
     color: #ffbf00;
     font-size: 11px;
-}
+} */
 
 
 /* typography
 ==================================================*/
 
-h1 {
+/* h1 {
     color: #393939;
     font-size: 60px;
     text-transform: uppercase;
@@ -81,7 +57,7 @@ h3 {
 
 h5 {
     color: #ffbf00;
-}
+} */
 
 
 
