@@ -156,7 +156,7 @@ include('header.php');
 
 
   <!-- jQuery -->
-  <!-- <script src="/portfolio/jquery-2.1.1.js"></script> -->
+  <script src="/portfolio/jquery-2.1.1.js"></script>
     <!--  plugins -->
     <!-- <script src="/portfolio/bootstrap.min.js"></script> -->
     <script src="/portfolio/menu.js"></script>
