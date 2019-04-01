@@ -166,9 +166,12 @@ include('header.php');
 
     <!--  custom script -->
     <script src="/portfolio/custom.js"></script>
-</body>
 
-</html>
+
+
+    <?php
+include('footer.php');
+?>
 
 
 
