@@ -1,11 +1,6 @@
 <?php
 include('header.php');
 ?>
- 
-	<h1>
-     Portfolio
-     </h1>
-
 
 
 
@@ -33,7 +28,7 @@ include('header.php');
                     <!-- single work -->
                     <div class="col-md-4 col-sm-6 web">
                         <a href="single-project.html" class="portfolio_item">
-                            <img src="/assets/portfolio/xenum.png" alt="image" class="img-responsive"
+                            <img src="/assets/portfolio/xenum.jpg" alt="image" class="img-responsive"
                                 style="width:100%; height:100%;" />
                             <div class="portfolio_item_hover">
                                 <div class="portfolio-border clearfix">
@@ -84,7 +79,7 @@ include('header.php');
                     <!-- single work -->
                     <div class="col-md-4 col-sm-6 ads">
                         <a href="single-project.html" class="portfolio_item">
-                            <img src="/assets/portfolio/xenum-marketing.png" alt="image" class="img-responsive"
+                            <img src="/assets/portfolio/xenum-marketing.jpg" alt="image" class="img-responsive"
                                 style="width:100%; height:100%;" />
                             <div class="portfolio_item_hover">
                                 <div class="portfolio-border clearfix">
@@ -118,7 +113,7 @@ include('header.php');
                     <!-- single work -->
                     <div class="col-md-4 col-sm-12 ads">
                         <a href="single-project.html" class="portfolio_item">
-                            <img src="/assets/portfolio/oximo-marketing.png" alt="image" class="img-responsive"
+                            <img src="/assets/portfolio/oximo-marketing.jpg" alt="image" class="img-responsive"
                                 style="width:100%; height:100%;" />
                             <div class="portfolio_item_hover">
                                 <div class="portfolio-border clearfix">
@@ -146,7 +141,7 @@ include('header.php');
     
 
     <!-- back to top -->
-    <a href="#0" class="cd-top"><i class="ion-android-arrow-up"></i></a>
+    <!-- <a href="#0" class="cd-top"><i class="ion-android-arrow-up"></i></a> -->
     <!-- end back to top -->
 
 
