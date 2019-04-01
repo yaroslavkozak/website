@@ -28,7 +28,7 @@ include('header.php');
                     <!-- single work -->
                     <div class="col-md-4 col-sm-6 web">
                         <a href="single-project.html" class="portfolio_item">
-                            <img src="/assets/portfolio/xenum.img" alt="image" class="img-responsive"
+                            <img src="/assets/portfolio/xenum.jpg" alt="image" class="img-responsive"
                                 style="width:100%; height:100%;" />
                             <div class="portfolio_item_hover">
                                 <div class="portfolio-border clearfix">
