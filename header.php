@@ -19,11 +19,7 @@
     <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"> -->
 
-    <!-- PORTFOLIO -->
-    <link href="/portfolio/ionicons/css/ionicons.min.css" rel="stylesheet">
-    <!-- !TODO ICONS -->
-    <link href="/portfolio/style.css" rel="stylesheet">
-    <script src="/portfolio/modernizr.js"></script>
+
 
 
 

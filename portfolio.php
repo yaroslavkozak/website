@@ -151,6 +151,16 @@ include('header.php');
 
 
 
+
+
+
+        <!-- PORTFOLIO -->
+    <link href="/portfolio/ionicons/css/ionicons.min.css" rel="stylesheet">
+    <!-- !TODO ICONS -->
+    <link href="/portfolio/style.css" rel="stylesheet">
+    <script src="/portfolio/modernizr.js"></script>
+
+
     <!-- jQuery -->
     <script src="/portfolio/jquery-2.1.1.js"></script>
     <!--  plugins -->
@@ -158,6 +168,8 @@ include('header.php');
     <script src="/portfolio/menu.js"></script>
     <script src="/portfolio/animated-headline.js"></script>
     <script src="/portfolio/isotope.pkgd.min.js"></script>
+
+    
 
 
     <!--  custom script -->
