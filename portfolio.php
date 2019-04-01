@@ -168,7 +168,7 @@ include('header.php');
 
 
     <!--  custom script -->
-    <!-- <script src="/portfolio/custom.js"></script> -->
+    <script src="/portfolio/custom.js"></script>
 
 
 
