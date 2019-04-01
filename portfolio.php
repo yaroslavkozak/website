@@ -162,13 +162,13 @@ include('header.php');
     <!-- <script src="/portfolio/bootstrap.min.js"></script> -->
     <script src="/portfolio/menu.js"></script>
     <script src="/portfolio/animated-headline.js"></script>
-    <!-- <script src="/portfolio/isotope.pkgd.min.js"></script> -->
+    <script src="/portfolio/isotope.pkgd.min.js"></script>
 
     
 
 
     <!--  custom script -->
-    <script src="/portfolio/custom.js"></script>
+    <!-- <script src="/portfolio/custom.js"></script> -->
 
 
 
