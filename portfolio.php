@@ -146,22 +146,12 @@ include('header.php');
     
 
     <!-- back to top -->
-    <a href="#0" class="cd-top"><i class="ion-android-arrow-up"></i></a>
+    <!-- <a href="#0" class="cd-top"><i class="ion-android-arrow-up"></i></a> -->
     <!-- end back to top -->
 
 
 
-    <!-- jQuery -->
-    <script src="/portfolio/jquery-2.1.1.js"></script>
-    <!--  plugins -->
-    <script src="/portfolio/bootstrap.min.js"></script>
-    <script src="/portfolio/menu.js"></script>
-    <script src="/portfolio/animated-headline.js"></script>
-    <script src="/portfolio/isotope.pkgd.min.js"></script>
 
-
-    <!--  custom script -->
-    <script src="/portfolio/custom.js"></script>
 
 
 
