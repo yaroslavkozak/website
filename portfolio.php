@@ -1,25 +1,16 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="icon" href="img/fav.png" type="image/x-icon">
-    <!-- !TODO ICON -->
-    <title>Portfolio</title>
-    <link href="/css/bootstrap.min.css" rel="stylesheet">
-    <link href="ionicons/css/ionicons.min.css" rel="stylesheet">
-    <!-- !TODO ICONS -->
-    <link href="style.css" rel="stylesheet">
-    <script src="modernizr.js"></script>
+<?php
+include('header.php');
+?>
+ <main role="main" style="
+    margin: 50px;">
+	<h1>
+     Portfolio
+     </h1>
 
 
 
-</head>
 
-<body>
-    <div class="main-container portfolio-inner clearfix">
+     <div class="main-container portfolio-inner clearfix">
         <!-- portfolio div -->
         <div class="portfolio-div">
             <div class="portfolio">
@@ -178,6 +169,16 @@
 
     <!--  custom script -->
     <script src="custom.js"></script>
-</body>
 
-</html>
+
+
+
+
+
+
+
+
+
+     <?php
+include('footer.php');
+?>

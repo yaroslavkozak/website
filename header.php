@@ -48,12 +48,15 @@
           <li class="nav-item">
             <a class="nav-link font-weight-bold" href="/about.html/">About</a>
           </li>
-          <li class="nav-item dropdown">
+          <li class="nav-item">
+            <a class="nav-link font-weight-bold" href="portfolio.php">Portfolio</a>
+          </li>
+          <!-- <li class="nav-item dropdown">
             <a
               class="nav-link dropdown-toggle font-weight-bold"
               id="navbarDropdown"
               data-toggle="dropdown"
-              href="#"
+              href="portfolio.php"
               >Portfolio</a
             >
             <div class="dropdown-menu">
@@ -62,7 +65,7 @@
               <a class="dropdown-item" href="#">Branding</a>
               <div class="dropdown-divider"></div>
               <a class="dropdown-item" href="#">Code</a>
-            </div>
+            </div> -->
           </li>
           <li class="nav-item ">
             <a class="nav-link font-weight-bold" href="/blog/">Blog</a>
