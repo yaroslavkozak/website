@@ -43,14 +43,14 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto mr-md-4">
           <li class="nav-item">
-            <a class="nav-link" href="/">Home</a>
+            <a class="nav-link font-weight-bold" href="/">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/about.html/">About</a>
+            <a class="nav-link font-weight-bold" href="/about.html/">About</a>
           </li>
           <li class="nav-item dropdown">
             <a
-              class="nav-link dropdown-toggle"
+              class="nav-link dropdown-toggle font-weight-bold"
               id="navbarDropdown"
               data-toggle="dropdown"
               href="#"
@@ -64,11 +64,11 @@
               <a class="dropdown-item" href="#">Code</a>
             </div>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/blog/">Blog</a>
+          <li class="nav-item ">
+            <a class="nav-link font-weight-bold" href="/blog/">Blog</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/contact.html/">Contact</a>
+            <a class="nav-link font-weight-bold" href="/contact.html/">Contact</a>
           </li>
           <li class="nav-item">
              <?php if (isset($_SESSION["username"])) { ?>
