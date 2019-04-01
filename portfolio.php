@@ -152,8 +152,9 @@ include('header.php');
         <!-- PORTFOLIO -->
     <!-- <link href="/portfolio/ionicons/css/ionicons.min.css" rel="stylesheet"> -->
     <!-- !TODO ICONS -->
-    <link href="/portfolio/style.css" rel="stylesheet">
-    <script src="/portfolio/modernizr.js"></script>
+    
+    <!-- <link href="/portfolio/style.css" rel="stylesheet"> -->
+    <script src="/portfolio/modernizr.js"></script> 
 
 
     <!-- jQuery -->
