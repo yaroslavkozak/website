@@ -26,9 +26,11 @@ error_reporting(E_ALL);
        // $query = mysql_real_escape_string($query);
         // makes sure nobody uses SQL injection
          
-        $raw_results = mysql_query("SELECT * FROM articles
-            WHERE (`title` LIKE '%".$query."%') OR (`text` LIKE '%".$query."%')") or die(mysql_error());
+        // $raw_results = mysql_query("SELECT * FROM articles
+        //     WHERE (`title` LIKE '%".$query."%') OR (`text` LIKE '%".$query."%')") or die(mysql_error());
              
+        $results = $db->query("SELECT * FROM articles
+        WHERE (`title` LIKE '%".$query."%') OR (`text` LIKE '%".$query."%')");     
         //  means that it selects all fields, you can also write: `id`, `title`, `text`
         // articles is the name of our table
          
