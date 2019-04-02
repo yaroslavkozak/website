@@ -13,7 +13,7 @@ include('header.php');
     $query = $_GET['search']; 
     // gets value sent over search form
      
-    $min_length = 3;
+    $min_length = 1;
     // you can set minimum length of the query if you want
      
     if(strlen($search) >= $min_length){ // if query length is more or equal minimum length then
