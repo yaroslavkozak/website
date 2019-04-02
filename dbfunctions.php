@@ -4,14 +4,14 @@ include('connect.php');
 $connect_file=$_SERVER["DOCUMENT_ROOT"]. "connect.php";
 include_once($connect_file);
 
-function insertProduct($name, $img, $price) {
+function insertProduct($name, $small_desc, $img) {
   $connect_file=$_SERVER["DOCUMENT_ROOT"]. "connect.php";
   include($connect_file);
   try {
-    $insert = $db->prepare("insert into products (name, img, price) values (?,?,?)");
+    $insert = $db->prepare("insert into portfolios (name, small_desc, img) values (?,?,?)");
     $insert->bindValue(1, $name);
-    $insert->bindValue(2, $img);
-    $insert->bindValue(3, $price);
+    $insert->bindValue(2, $small_desc);
+    $insert->bindValue(3, $img);
     $insert->execute();
     return true;
   } catch (PDOException $e) {
@@ -96,7 +96,7 @@ function adminListAllProducts() {
     foreach($portfolios as $key => $portfolio) {
       $id = $portfolio['id'];
       $name = $portfolio['name'];
-      $small_desc = $portfolio['price'];
+      $small_desc = $portfolio['small_desc'];
       $img=  $portfolio['img'];
       echo "<tr><th scope='row'>$id</th><td>$name</td><td>$small_desc</td><td><img src='$img' width='50px'/></td>
       <form id='delete' name='delete' method='post' action='deleteProduct.php'><td><input type='hidden' id='portfolioid' name='portfolioid' value='$id'/><button type='submit' id='deleteBtn' name='deleteBtn'> Delete </button></td></tr>";

@@ -1,5 +1,5 @@
 <?php
-//session_start(); 
+session_start(); 
 ?>
 
 
@@ -47,14 +47,14 @@
             
             <li class="nav-item">
               <?php echo "<li class=\"nav-item\">\n";
-echo "            <a class=\"nav-link \" href=\"about.php\">Admin</a>\n";
+echo "            <a class=\"nav-link \" href=\"admin.php\">Admin</a>\n";
 echo "          </li>"; 
                  if ($_SESSION["is_admin"] == 'Y') { ?>
                     <!-- <meta http-equiv="refresh" content="0; url=index.php" />  -->
               <?php
                  }?>
               
-            </li>
+           
             
         
         </ul>
