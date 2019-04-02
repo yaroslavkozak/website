@@ -30,7 +30,7 @@ error_reporting(E_ALL);
         // $query = mysql_real_escape_string($query);
         // makes sure nobody uses SQL injection
          
-        $raw_results = $db->query("SELECT * FROM articles
+        $raw_results = mysql_query("SELECT * FROM articles
             WHERE (`title` LIKE '%".$query."%') OR (`text` LIKE '%".$query."%')") or die(mysql_error());
              
         // * means that it selects all fields, you can also write: `id`, `title`, `text`
@@ -39,10 +39,8 @@ error_reporting(E_ALL);
         // '%$query%' is what we're looking for, % means anything, for example if $query is Hello
         // it will match "hello", "Hello man", "gogohello", if you want exact match use `title`='$query'
         // or if you want to match just full word so "gogohello" is out use '% $query %' ...OR ... '$query %' ... OR ... '% $query'
-
-
-        //$num_rows = mysqli_num_rows($raw_results); 
-        if($raw_results != ""){ // if one or more rows are returned do following
+         
+        if(mysqli_num_rows($raw_results) > 0){ // if one or more rows are returned do following
              
             while($results = mysqli_fetch_array($raw_results)){
             // $results = mysql_fetch_array($raw_results) puts data from database into array, while it's valid it does the loop
