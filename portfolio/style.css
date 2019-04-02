@@ -28,7 +28,7 @@
 
 .portfolio .categories-grid .categories ul li a.active {
     margin-left: 0;
-    background-color: #ffbf00;
+    background-color: grey;
     padding: 0px 20px;
     color: white;
     border-radius: 25px;

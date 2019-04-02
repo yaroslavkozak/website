@@ -1,8 +1,8 @@
 <?php
-    if(!isset($_SESSION)) 
-    { 
-        session_start(); 
-    } 
+    // if(!isset($_SESSION)) 
+    // { 
+    //     session_start(); 
+    // } 
 ?>
 
 <!DOCTYPE html>
@@ -51,7 +51,7 @@
             <a class="nav-link font-weight-bold" href="/">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link font-weight-bold" href="/about.html/">About</a>
+            <a class="nav-link font-weight-bold" href="about.php">About</a>
           </li>
           <li class="nav-item">
             <a class="nav-link font-weight-bold" href="portfolio.php">Portfolio</a>
@@ -73,10 +73,10 @@
             </div> -->
           </li>
           <li class="nav-item ">
-            <a class="nav-link font-weight-bold" href="/blog/">Blog</a>
+            <a class="nav-link font-weight-bold" href="blog.php">Blog</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link font-weight-bold" href="/contact.html/">Contact</a>
+            <a class="nav-link font-weight-bold" href="contact.php">Contact</a>
           </li>
           <li class="nav-item">
              <?php if (isset($_SESSION["username"])) { ?>

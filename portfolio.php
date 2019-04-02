@@ -45,7 +45,7 @@ include('header.php');
                     <!-- single work -->
                     <div class="col-md-4 col-sm-6 ads branding p-0">
                         <a href="single-project.html" class="portfolio_item">
-                            <img src="/assets/portfolio/xenum.jpg" alt="image" class="img-responsive"
+                            <img src="/assets/portfolio/park-dental.jpg" alt="image" class="img-responsive"
                                 style="width:100%; height:100%;" />
                             <div class="portfolio_item_hover">
                                 <div class="portfolio-border clearfix">
@@ -156,13 +156,13 @@ include('header.php');
     <link href="/portfolio/style.css" rel="stylesheet">
     <script src="/portfolio/modernizr.js"></script>
 
-
+    <!-- <script src="js/jquery-3.3.1.js" ></script> -->
     <!-- jQuery -->
     <script src="/portfolio/jquery-2.1.1.js"></script>
     <!--  plugins -->
     <!-- <script src="/portfolio/bootstrap.min.js"></script> -->
     <!-- <script src="/portfolio/menu.js"></script> -->
-    <script src="/portfolio/animated-headline.js"></script>
+    <!-- <script src="/portfolio/animated-headline.js"></script> -->
     <script src="/portfolio/isotope.pkgd.min.js"></script>
 
     
@@ -179,6 +179,6 @@ include('header.php');
 
 
 
-
-    </body>
-</html>
+    <?php
+include('footer.php');
+?>
