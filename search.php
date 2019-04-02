@@ -20,14 +20,14 @@ error_reporting(E_ALL);
      
     // if(strlen($search) >= $min_length){ // if query length is more or equal minimum length then
          
-        $search = htmlspecialchars($search); 
+        $query = htmlspecialchars($query); 
         // changes characters used in html to their equivalents, for example: < to &gt;
          
-        $search = mysql_real_escape_string($search);
+        $query = mysql_real_escape_string($query);
         // makes sure nobody uses SQL injection
          
         $raw_results = mysql_query("SELECT * FROM articles
-            WHERE (`title` LIKE '%".$search."%') OR (`text` LIKE '%".$search."%')") or die(mysql_error());
+            WHERE (`title` LIKE '%".$query."%') OR (`text` LIKE '%".$query."%')") or die(mysql_error());
              
         //  means that it selects all fields, you can also write: `id`, `title`, `text`
         // articles is the name of our table
