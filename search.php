@@ -23,7 +23,7 @@ error_reporting(E_ALL);
         $query = htmlspecialchars($query); 
         // changes characters used in html to their equivalents, for example: < to &gt;
          
-        $query = mysql_real_escape_string($query);
+       // $query = mysql_real_escape_string($query);
         // makes sure nobody uses SQL injection
          
         $raw_results = mysql_query("SELECT * FROM articles
