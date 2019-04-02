@@ -39,8 +39,10 @@ error_reporting(E_ALL);
         // '%$query%' is what we're looking for, % means anything, for example if $query is Hello
         // it will match "hello", "Hello man", "gogohello", if you want exact match use `title`='$query'
         // or if you want to match just full word so "gogohello" is out use '% $query %' ...OR ... '$query %' ... OR ... '% $query'
-         
-        if(mysqli_num_rows($raw_results) > 0){ // if one or more rows are returned do following
+
+
+        $num_rows = mysql_num_rows($raw_results); 
+        if($num_rows > 0){ // if one or more rows are returned do following
              
             while($results = mysql_fetch_array($raw_results)){
             // $results = mysql_fetch_array($raw_results) puts data from database into array, while it's valid it does the loop
