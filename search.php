@@ -25,7 +25,7 @@ try {
     WHERE (`title` LIKE '%".$query."%') OR (`text` LIKE '%".$query."%')");
 
 
-    $results->execute();
+    //$results->execute();
       $output = $results->fetchAll(PDO::FETCH_ASSOC);
   } catch (Exception $e) {
      echo "Data could not be retrieved from the database.";
