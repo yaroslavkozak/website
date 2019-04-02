@@ -31,6 +31,15 @@ error_reporting(E_ALL);
              
         $results = $db->query("SELECT * FROM articles
         WHERE (`title` LIKE '%".$query."%') OR (`text` LIKE '%".$query."%')");     
+
+
+        $output = $results->fetchAll(PDO::FETCH_ASSOC);
+        foreach($results as $key => $output) {
+            echo "<p><h3>".$results['title']."</h3>".$results['title']."</p>";
+          }
+          
+      ?>
+      
         //  means that it selects all fields, you can also write: `id`, `title`, `text`
         // articles is the name of our table
          
@@ -43,7 +52,7 @@ error_reporting(E_ALL);
             while($results = mysql_fetch_array($results)){
             // $results = mysql_fetch_array($raw_results) puts data from database into array, while it's valid it does the loop
              
-                echo "<p><h3>".$results['title']."</h3>".$results['title']."</p>";
+                <!-- echo "<p><h3>".$results['title']."</h3>".$results['title']."</p>"; -->
                 // posts results gotten from database(title and text) you can also show id ($results['id'])
             }
              
