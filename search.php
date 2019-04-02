@@ -41,8 +41,8 @@ error_reporting(E_ALL);
         // or if you want to match just full word so "gogohello" is out use '% $query %' ...OR ... '$query %' ... OR ... '% $query'
 
 
-        $num_rows = mysqli_num_rows($raw_results); 
-        if($num_rows > 0){ // if one or more rows are returned do following
+        //$num_rows = mysqli_num_rows($raw_results); 
+        if($raw_results != ""){ // if one or more rows are returned do following
              
             while($results = mysql_fetch_array($raw_results)){
             // $results = mysql_fetch_array($raw_results) puts data from database into array, while it's valid it does the loop
