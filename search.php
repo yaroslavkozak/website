@@ -16,7 +16,7 @@ include('header.php');
     $min_length = 1;
     // you can set minimum length of the query if you want
      
-    if(strlen($search) >= $min_length){ // if query length is more or equal minimum length then
+    // if(strlen($search) >= $min_length){ // if query length is more or equal minimum length then
          
         $search = htmlspecialchars($search); 
         // changes characters used in html to their equivalents, for example: < to &gt;
@@ -49,9 +49,9 @@ include('header.php');
         }
          
     }
-    else{ // if query length is less than minimum
-        echo "Minimum length is ".$min_length;
-    }
+    // else{ // if query length is less than minimum
+    //     echo "Minimum length is ".$min_length;
+    // }
 ?>
 
 
