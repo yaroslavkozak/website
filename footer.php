@@ -40,10 +40,10 @@
 
 
     <!-- <script src="/portfolio/jquery-2.1.1.js"></script> -->
-    <!-- <script
+    <script
 			  src="https://code.jquery.com/jquery-3.3.1.min.js"
 			  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-			  crossorigin="anonymous"></script> -->
+			  crossorigin="anonymous"></script>
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
