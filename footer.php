@@ -36,7 +36,7 @@
           </div>
         </div>
       </footer>
-    </div>
+   
 
 
     <!-- <script src="/portfolio/jquery-2.1.1.js"></script> -->

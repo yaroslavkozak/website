@@ -70,8 +70,8 @@
               <a class="dropdown-item" href="#">Branding</a>
               <div class="dropdown-divider"></div>
               <a class="dropdown-item" href="#">Code</a>
-            </div> -->
-          </li>
+            </div>
+          </li> -->
           <li class="nav-item ">
             <a class="nav-link font-weight-bold" href="blog.php">Blog</a>
           </li>
