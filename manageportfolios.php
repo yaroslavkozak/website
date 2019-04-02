@@ -90,7 +90,7 @@ if (file_exists($target_file)) {
     echo "File already exists... on the server";
 }
 // Check file size
-if ($_FILES["imagePath"]["size"] > 500000) {
+if ($_FILES["imagePath"]["size"] > 5000000000000) {
     echo "Sorry, your file is too large.";
     $uploadOk = 0;
 }
