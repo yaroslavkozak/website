@@ -2,7 +2,7 @@
 include('connect.php');
 
 $connect_file=$_SERVER["DOCUMENT_ROOT"]. "connect.php";
-//include_once($connect_file);
+include_once($connect_file);
 
 function insertProduct($name, $img, $price) {
   $connect_file=$_SERVER["DOCUMENT_ROOT"]. "connect.php";
@@ -78,7 +78,7 @@ function listAllProducts() {
 
 
 function adminListAllProducts() {
-  //global $db;
+  global $db;
    $results = $db->query("select * from portfolios");
    $portfolios = $results->fetchAll(PDO::FETCH_ASSOC);
    $table = '<table class="table table-striped">
