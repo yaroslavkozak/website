@@ -22,8 +22,7 @@ error_reporting(E_ALL);
 $search_value=$_GET["query"];
 
 global $db;
-$results = $db->query("SELECT * FROM articles
-WHERE (`title` LIKE '%".$query."%') OR (`text` LIKE '%".$query."%')"");
+$results = $db->query("SELECT * FROM articles WHERE (`title` LIKE '%".$query."%') OR (`text` LIKE '%".$query."%')");
 $output = $results->fetchAll(PDO::FETCH_ASSOC);
 
 
