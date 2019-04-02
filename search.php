@@ -19,7 +19,7 @@ error_reporting(E_ALL);
     $query = $_GET['query']; 
     // gets value sent over search form
      
-    $min_length = 3;
+    $min_length = 1;
     // you can set minimum length of the query if you want
      
     if(strlen($query) >= $min_length){ // if query length is more or equal minimum length then
@@ -30,7 +30,7 @@ error_reporting(E_ALL);
         // $query = mysql_real_escape_string($query);
         // makes sure nobody uses SQL injection
          
-        $raw_results = mysqli_query("SELECT * FROM articles
+        $raw_results = mysql_query("SELECT * FROM articles
         WHERE (`title` LIKE '%".$query."%') OR (`text` LIKE '%".$query."%')") or die(mysqli_error());
              
         //  means that it selects all fields, you can also write: `id`, `title`, `text`
