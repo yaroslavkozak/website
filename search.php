@@ -50,7 +50,7 @@ error_reporting(E_ALL);
             echo "No results";
         }
          
-    }
+    // }
     // else{ // if query length is less than minimum
     //     echo "Minimum length is ".$min_length;
     // }
