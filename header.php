@@ -25,7 +25,7 @@
   </head>
 
   <body>
-  <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+  <nav class="topbar navbar navbar-expand-md navbar-dark bg-dark">
     <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
         <ul class="navbar-nav ml-auto">
             <li class="nav-item">
@@ -44,6 +44,19 @@
                  }?>
               
             </li>
+            
+            <li class="nav-item">
+              <?php echo "<li class=\"nav-item\">\n";
+echo "            <a class=\"nav-link \" href=\"about.php\">Admin</a>\n";
+echo "          </li>"; 
+                 if ($_SESSION["is_admin"] == 'Y') { ?>
+                    <!-- <meta http-equiv="refresh" content="0; url=index.php" />  -->
+              <?php
+                 }?>
+              
+            </li>
+            
+        
         </ul>
     </div>
 </nav>
@@ -99,22 +112,7 @@
           <li class="nav-item">
             <a class="nav-link font-weight-bold" href="contact.php">Contact</a>
           </li>
-          <li class="nav-item">
-             <?php if (isset($_SESSION["username"])) { ?>
-               <a class="nav-link" href="logout.php">Logout</a>
-              <?php }  else { ?> 
-               <a class="nav-link" href="login.php">Login</a>
-                <?php
-                 } ?>
-            </li>
-            <li class="nav-item">
-              <?php echo $_SESSION["username"]; 
-                 if ($_SESSION["is_admin"] == 'Y') { ?>
-                    <!-- <meta http-equiv="refresh" content="0; url=index.php" />  -->
-              <?php
-                 }?>
-              
-            </li>
+         
         </ul>
 
         <form class="form-inline mt-2 mt-md-0" action="search.php" method="GET" >

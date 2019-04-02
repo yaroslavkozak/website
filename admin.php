@@ -6,7 +6,7 @@ include('header.php');
 
  <main role="main" style="margin: 50px;">
 
-   <a href="manageProducts.php">  Manage Products</a>
+   <a href="manageproducts.php">  Manage Products</a>
     
    
     <button>
