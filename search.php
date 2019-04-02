@@ -1,6 +1,8 @@
 <?php
 include('connect.php');
 include('header.php');
+ini_set('display_errors', 1);
+error_reporting(E_ALL); 
 
 ?>
 
@@ -27,7 +29,7 @@ include('header.php');
         $raw_results = mysql_query("SELECT * FROM articles
             WHERE (`title` LIKE '%".$search."%') OR (`text` LIKE '%".$search."%')") or die(mysql_error());
              
-        // * means that it selects all fields, you can also write: `id`, `title`, `text`
+        //  means that it selects all fields, you can also write: `id`, `title`, `text`
         // articles is the name of our table
          
         // '%$query%' is what we're looking for, % means anything, for example if $query is Hello
