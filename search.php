@@ -31,7 +31,7 @@ error_reporting(E_ALL);
         // makes sure nobody uses SQL injection
          
         $raw_results = mysqli_query("SELECT * FROM articles
-            WHERE (`title` LIKE '%".$query."%') OR (`text` LIKE '%".$query."%')") or die(mysql_error());
+            WHERE (`title` LIKE '%".$query."%')");
              
         // * means that it selects all fields, you can also write: `id`, `title`, `text`
         // articles is the name of our table
