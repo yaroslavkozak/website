@@ -1,5 +1,5 @@
 <?php
-session_start(); 
+//session_start(); 
 ?>
 
 
@@ -18,13 +18,38 @@ session_start();
     <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"> -->
 
-
         <link rel="stylesheet" href="/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="css/custom.css" />
+        <link rel="stylesheet" href="css/custom.css" />
+    
 
   </head>
 
   <body>
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+    <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+             <?php if (isset($_SESSION["username"])) { ?>
+               <a class="nav-link" href="logout.php">Logout</a>
+              <?php }  else { ?> 
+               <a class="nav-link" href="login.php">Login</a>
+                <?php
+                 } ?>
+            </li>
+            <li class="nav-item">
+              <?php echo $_SESSION["username"]; 
+                 if ($_SESSION["is_admin"] == 'Y') { ?>
+                    <!-- <meta http-equiv="refresh" content="0; url=index.php" />  -->
+              <?php
+                 }?>
+              
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+
       <header>
     <nav class="navbar navbar-expand-lg navbar-light bg-primary">
       <a class="navbar-brand ml-md-4" href="/"

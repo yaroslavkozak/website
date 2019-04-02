@@ -1,22 +1,20 @@
-<?php 
-ini_set('display_errors', 1);
-error_reporting(E_ALL); 
+<?php
 include('header.php');
 ?>
 
-<main role="main" style="margin-top:50px;"> 
 
+
+ <main role="main" style="margin: 50px;">
+
+   <a href="manageProducts.php">  Manage Products</a>
+    
+   
+    <button>
+     Manage Users
+   </button>
 </main>
 
-  
 
-
-<!-- <?php  
-if ($_SESSION["is_admin"] !== 'Y') { ?>
-<meta http-equiv="refresh" content="0; url=login.php" /> --> 
 <?php
-}?> 
-
-<?php 
 include('footer.php');
 ?>
