@@ -35,7 +35,7 @@ error_reporting(E_ALL);
 
         $output = $results->fetchAll(PDO::FETCH_ASSOC);
         foreach($results as $key => $output) {
-            echo "<p><h3>".$results['title']."</h3>".$results['title']."</p>";
+            echo "<p><h3>".$output['title']."</h3>".$output['title']."</p>";
           }
           
       ?>
