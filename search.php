@@ -19,24 +19,20 @@ error_reporting(E_ALL);
 
 
 <?php
-try {
-    $query = $_GET['query'];
-    $results = $db->prepare("SELECT * FROM articles
-    WHERE (`title` LIKE '%".$query."%') OR (`text` LIKE '%".$query."%')");
+$search_value=$_GET["query"];
+
+        $sql="SELECT * FROM articles
+        WHERE (`title` LIKE '%".$query."%') OR (`text` LIKE '%".$query."%')";
+
+        $res=$con->query($sql);
+
+        while($row=$res->fetch_assoc()){
+            echo 'First_name:  '.$row["title"];
 
 
-    //$results->execute();
-      $output = $results->fetchAll(PDO::FETCH_ASSOC);
-  } catch (Exception $e) {
-     echo "Data could not be retrieved from the database.";
-     exit;
-  }
-  echo "ok";
-  foreach($output as $key => $line) {
-    echo $line["tittle"];
-  }
-  } else 
-    echo "no search query provided.";
+            }       
+
+        
 ?>
 
 
