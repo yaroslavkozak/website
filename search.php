@@ -1,8 +1,8 @@
 <?php
 include('connect.php');
 include('header.php');
-ini_set('display_errors', 1);
-error_reporting(E_ALL); 
+// ini_set('display_errors', 1);
+// error_reporting(E_ALL); 
 
 ?>
 
@@ -26,9 +26,9 @@ $results = $db->query("SELECT * FROM articles WHERE (`title` LIKE '%".$query."%'
 $output = $results->fetchAll(PDO::FETCH_ASSOC);
 
 
-foreach($output as $key => $line) {
+foreach($output as $key => $result) {
 
-    echo $line['title'];
+    echo $result['title'];
    
 }
                 
