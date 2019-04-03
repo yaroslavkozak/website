@@ -146,7 +146,7 @@
               Labore, voluptates totam at aut nemo deserunt rem magni pariatur
               quos perspiciatis atque eveniet unde.
             </p>
-            <a class="btn btn-primary" href="/portfolio/parkdental.html"
+            <a class="btn btn-primary" href="#"
               >View Project</a
             >
           </div>

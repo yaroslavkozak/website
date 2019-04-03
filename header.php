@@ -15,8 +15,8 @@ session_start();
 
     <!-- Bootstrap CSS -->
 
-    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
         <link rel="stylesheet" href="/css/bootstrap.min.css" />
         <link rel="stylesheet" href="css/custom.css" />
@@ -28,6 +28,9 @@ session_start();
   <nav class="topbar navbar navbar-expand-md navbar-dark bg-dark">
     <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
         <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+            <a class="nav-link " href="register.php">Register</a>
+          </li>
             <li class="nav-item">
              <?php if (isset($_SESSION["username"])) { ?>
                <a class="nav-link" href="logout.php">Logout</a>
@@ -36,7 +39,7 @@ session_start();
                 <?php
                  } ?>
             </li>
-            <li class="nav-item">
+            <li class="nav-item" style="font-size:12px; padding:0 7px;">
               <?php echo $_SESSION["username"]; 
                  if ($_SESSION["is_admin"] == 'Y') { ?>
                     <!-- <meta http-equiv="refresh" content="0; url=index.php" />  -->
@@ -46,10 +49,11 @@ session_start();
             </li>
             
             <li class="nav-item">
-              <?php echo "<li class=\"nav-item\">\n";
-echo "            <a class=\"nav-link \" href=\"admin.php\">Admin</a>\n";
-echo "          </li>"; 
-                 if ($_SESSION["is_admin"] == 'Y') { ?>
+              <?php 
+                 if ($_SESSION["is_admin"] == 'Y') { 
+                  echo "<li class=\"nav-item\">\n";
+                  echo "            <a class=\"nav-link font-weight-bold\" href=\"admin.php\" style=\"background-color:blue;\">Admin</a>\n";
+                  echo "          </li>"; ?>
                     <!-- <meta http-equiv="refresh" content="0; url=index.php" />  -->
               <?php
                  }?>

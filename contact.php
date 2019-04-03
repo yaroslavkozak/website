@@ -16,17 +16,17 @@ include('header.php');
               <h2 class="mb-30">GET IN TOUCH</h2>
 
               <ul class="contact-details">
-                <li><span>23 Main, Street</span></li>
-                <li><span>New York, United States</span></li>
-                <li><span>+88 01912704287</span></li>
-                <li><span>example@example.com</span></li>
+                <li><span>Taxilou 1</span></li>
+                <li><span>Athens, Greece</span></li>
+                <li><span>+380666820062</span></li>
+                <li><span>y.kozak@acg.edu</span></li>
               </ul>
 
             </div>
           </div>
 
           <div class="col-lg-6">
-            <form action="" method="post" role="form" class="contactForm">
+            <form action="mailto:y.kozak@acg.edu" method="post" role="form" class="contactForm">
               <div class="row">
 
                 <div id="sendmessage">Your message has been sent. Thank you!</div>

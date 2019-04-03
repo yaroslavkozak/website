@@ -19,6 +19,30 @@ function insertPortfolio($name, $small_desc, $img) {
     return false;
   }
 }
+
+
+
+function insertUser($username, $email, $password) {
+  $connect_file=$_SERVER["DOCUMENT_ROOT"]. "connect.php";
+  include($connect_file);
+  try {
+    $insert = $db->prepare("insert into users (login, email, password) values (?,?,?)");
+    $insert->bindValue(1, $username);
+    $insert->bindValue(2, $email);
+    $insert->bindValue(3, $password);
+    $insert->execute();
+    return true;
+  } catch (PDOException $e) {
+    echo "Registration failure " . $e->getMessage();
+    return false;
+  }
+}
+
+
+
+
+
+
 function deletePortfolio($id) {
     $connect_file=$_SERVER["DOCUMENT_ROOT"]. "connect.php";
   include($connect_file);
