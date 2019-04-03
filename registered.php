@@ -15,7 +15,6 @@ if (isset($_POST["insert"]))
 
 {
 
-header("Location: http://www.yourwebsite.com/user.php"); /* Redirect browser */
 
   
   $login = $_POST["login"];
