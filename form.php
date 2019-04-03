@@ -1,8 +1,4 @@
-    
-    <?php
-include('header.php');
-include('connect.php');
-?>
+
 
     <form  method="post" action="registered.php"  enctype="multipart/form-data">
         <div class="field-name">
