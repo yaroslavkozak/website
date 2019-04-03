@@ -1,7 +1,8 @@
     <!-- Footer -->
 
     <footer class="footer-section justify-content-center">
-    <h3 class="" >How do you like my site?</h3>
+      <div class="row">
+        <div class="container"> <h3 class="" >How do you like my site?</h3>
     <fieldset class="rating justify-content-center">
             <legend></legend>
                 <div class="rating_group">
@@ -22,7 +23,9 @@
 
                         <div class="rating_focus"></div>                    
                 </div>
-        </fieldset>
+        </fieldset></div>
+      </div>
+   
 
 
         <hr />
