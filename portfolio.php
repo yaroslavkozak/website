@@ -27,7 +27,7 @@ include('header.php');
                 <div class="no-padding portfolio_container clearfix">
                     <!-- single work -->
                     <div class="col-md-4 col-sm-6 web p-0">
-                        <a href="single-project.html" class="portfolio_item">
+                        <a href="https://xenum.ua/" class="portfolio_item">
                             <img src="/assets/portfolio/xenum.jpg" alt="image" class="img-responsive"
                                 style="width:100%; height:100%;" />
                             <div class="portfolio_item_hover">
@@ -44,7 +44,7 @@ include('header.php');
 
                     <!-- single work -->
                     <div class="col-md-4 col-sm-6 ads branding p-0">
-                        <a href="single-project.html" class="portfolio_item">
+                        <a href="https://www.parkdental.com.ua/" class="portfolio_item">
                             <img src="/assets/portfolio/park-dental.jpg" alt="image" class="img-responsive"
                                 style="width:100%; height:100%;" />
                             <div class="portfolio_item_hover">
@@ -62,7 +62,7 @@ include('header.php');
 
                     <!-- single work -->
                     <div class="col-md-4 col-sm-12 web p-0">
-                        <a href="single-project.html" class="portfolio_item">
+                        <a href="https://www.oximo.lviv.ua/" class="portfolio_item">
                             <img src="/assets/portfolio/oximo.jpg" alt="image" class="img-responsive"
                                 style="width:100%; height:100%;" />
                             <div class="portfolio_item_hover">
@@ -79,7 +79,7 @@ include('header.php');
 
                     <!-- single work -->
                     <div class="col-md-4 col-sm-6 ads p-0">
-                        <a href="single-project.html" class="portfolio_item">
+                        <a href="https://xenum.ua/" class="portfolio_item">
                             <img src="/assets/portfolio/xenum-marketing.jpg" alt="image" class="img-responsive"
                                 style="width:100%; height:100%;" />
                             <div class="portfolio_item_hover">
@@ -96,7 +96,7 @@ include('header.php');
 
                     <!-- single work -->
                     <div class="col-md-4 col-sm-6 design p-0">
-                        <a href="single-project.html" class="portfolio_item">
+                        <a href="https://www.parkdental.com.ua/" class="portfolio_item">
                             <img src="/assets/portfolio/park-dental-logo.png" alt="image" class="img-responsive"
                                 style="width:100%; height:100%;" />
                             <div class="portfolio_item_hover">
@@ -113,7 +113,7 @@ include('header.php');
 
                     <!-- single work -->
                     <div class="col-md-4 col-sm-12 ads p-0">
-                        <a href="single-project.html" class="portfolio_item">
+                        <a href="https://www.oximo.lviv.ua/" class="portfolio_item">
                             <img src="/assets/portfolio/oximo-marketing.jpg" alt="image" class="img-responsive"
                                 style="width:100%; height:100%;" />
                             <div class="portfolio_item_hover">
