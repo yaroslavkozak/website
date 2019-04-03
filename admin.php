@@ -16,10 +16,10 @@ include('header.php');
 <a class="nav-link active bg-secondary" href="manageportfolios.php">Manage Portfolios</a>
 </li>
 <li class="nav-item">
-<a class="nav-link active bg-secondary" href="#">Manage Posts</a>
+<a class="nav-link  disabled bg-secondary" href="#">Manage Posts</a>
 </li>
 <li class="nav-item">
-<a class="nav-link active bg-secondary" href="#">Manage Users</a>
+<a class="nav-link disabled bg-secondary" href="#">Manage Users</a>
 </li>
 
 </ul>

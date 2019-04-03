@@ -4,7 +4,7 @@ include('connect.php');
 $connect_file=$_SERVER["DOCUMENT_ROOT"]. "connect.php";
 include_once($connect_file);
 
-function insertProduct($name, $small_desc, $img) {
+function insertPortfolio($name, $small_desc, $img) {
   $connect_file=$_SERVER["DOCUMENT_ROOT"]. "connect.php";
   include($connect_file);
   try {
@@ -19,11 +19,11 @@ function insertProduct($name, $small_desc, $img) {
     return false;
   }
 }
-function deleteProduct($id) {
+function deletePortfolio($id) {
     $connect_file=$_SERVER["DOCUMENT_ROOT"]. "connect.php";
   include($connect_file);
   try {
-    $insert = $db->prepare(" delete from products where id = ?");
+    $insert = $db->prepare(" delete from portfolios where id = ?");
     $insert->bindValue(1, $id);
    
     $insert->execute();
@@ -33,14 +33,14 @@ function deleteProduct($id) {
     return false;
   }
 }
-function updateProduct($id, $name, $img, $price) {
+function updateProduct($id, $name, $small_desc, $img) {
   $connect_file=$_SERVER["DOCUMENT_ROOT"]. "connect.php";
   include($connect_file);
   try {
-    $insert = $db->prepare("update products set name = ?, img=?, price=? where id=?");
+    $insert = $db->prepare("update products set name = ?, small_desc=? , img=? where id=?");
     $insert->bindValue(1, $name);
-    $insert->bindValue(2, $img);
-    $insert->bindValue(3, $price);
+    $insert->bindValue(2, $small_desc);
+    $insert->bindValue(3, $img);
     $insert->bindValue(4, $id);
     $insert->execute();
     return true;
@@ -77,7 +77,7 @@ function listAllProducts() {
 }
 
 
-function adminListAllProducts() {
+function adminListAllPortfolios() {
   global $db;
    $results = $db->query("select * from portfolios");
    $portfolios = $results->fetchAll(PDO::FETCH_ASSOC);

@@ -118,9 +118,9 @@ if ($uploadOk == 0) {
   
   
 
-  insertProduct($productName, $small_desc, $imagePath);
+  insertPortfolio($productName, $small_desc, $imagePath);
 }
 
-adminListAllProducts();
+adminListAllPortfolios();
 include('footer.php');
 ?>
