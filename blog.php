@@ -78,7 +78,7 @@ include('connect.php');
 
               <div class="journal-txt">
 
-                <h2 class="text-center"><a href="blog-single.html">Learning HTML</a></h2>
+                <h2 class="text-center"><a href="#">Learning HTML</a></h2>
                 <p class="separator text-center">To an English person, it will seem like simplified English
                 </p>
 
@@ -94,7 +94,7 @@ include('connect.php');
 
               <div class="journal-txt">
 
-                <h2 class="text-center"><a href="#blog-single.html">Learning CSS</a></h2>
+                <h2 class="text-center"><a href="#">Learning CSS</a></h2>
                 <p class="separator text-center">To an English person, it will seem like simplified English
                 </p>
 
@@ -110,7 +110,7 @@ include('connect.php');
 
               <div class="journal-txt">
 
-                <h2 class="text-center"><a href="blog-single.html">Learning JavaScript</a></h2>
+                <h2 class="text-center"><a href="#">Learning JavaScript</a></h2>
                 <p class="separator text-center">To an English person, it will seem like simplified English
                 </p>
 

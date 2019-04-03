@@ -1,7 +1,7 @@
     <form  method="post" action="<?php echo htmlentities($_SERVER['PHP_SELF']);?>"  enctype="multipart/form-data">
         <div class="field-name">
             <i class="fas fa-user" style="color:black;"></i>
-            <input type="text" placeholder="Enter your desired Username" name = "username" required>
+            <input type="text" placeholder="Enter your desired Username" name = "login" required>
             <i class="fas fa-arrow-down" style="color:black;"></i>
         </div>
 
@@ -53,7 +53,7 @@ if (isset($_POST["insert"]))
 header("Location: http://www.yourwebsite.com/user.php"); /* Redirect browser */
 
   
-  $login = $_POST["username"];
+  $login = $_POST["login"];
   $email = $_POST["email"];
   $password = $_POST["password"];
 
