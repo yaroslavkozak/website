@@ -6,7 +6,7 @@ include('header.php');
 include('dbfunctions.php');
 ?>
 
-Ready
+Registered!
 
 <?php
 
