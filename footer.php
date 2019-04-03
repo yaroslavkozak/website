@@ -1,6 +1,30 @@
     <!-- Footer -->
 
-    <footer class="footer-section">
+    <footer class="footer-section justify-content-center">
+    <h3 class="" >How do you like my site?</h3>
+    <fieldset class="rating justify-content-center">
+            <legend></legend>
+                <div class="rating_group">
+                        <input class="rating_input text-center " type="radio" name="work" id="work-1" value ="1">
+                        <label arial-label="Bad" class="rating_star" for="health-1"></label>
+
+                        <input class="rating_input text-center" type="radio" name="work" id="work-2" value ="2">
+                        <label arial-label="Ok" class="rating_star" for="work-2"></label>
+
+                        <input class="rating_input text-center" type="radio" name="work" id="work-3" value ="3">
+                        <label arial-label="Bad" class="rating_star" for="work-3"></label>
+
+                        <input class="rating_input text-center" type="radio" name="work" id="work-4" value ="4">
+                        <label arial-label="Good" class="rating_star" for="work-4"></label>
+
+                        <input class="rating_input text-center" type="radio" name="work" id="work-5" value ="5" checked>
+                        <label arial-label="Awesome" class="rating_star" for="work-5"></label>
+
+                        <div class="rating_focus"></div>                    
+                </div>
+        </fieldset>
+
+
         <hr />
         <div class="row">
           <div class="col-lg-8 col-md-10 mx-auto">

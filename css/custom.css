@@ -1,14 +1,143 @@
-.journal-info {
-    background-color: #555;
-    padding: 10px;
+/* RATING */
+.rating {
+    margin: 0 0 1em 0;
+    padding: 0;
+    border: none;
 }
 
-.journal-info:hover {
-    transition: .2s ease-in;
-    background-color: #777;
-
+.rating_caption {
+    margin-bottom: .5em;
+    padding: 0;
 
 }
+
+/* Group */
+.rating_group {
+    position: relative;
+    width: 10em;
+    height: 2em;
+    background-image: url("https://cdn.glitch.com/be154eac-f8a7-4b55-9350-27cb2d6ff6c0%2Foff.svg?1552261455753");
+    background-size: 2em 1.9em;
+}
+
+/* .rating_group:focus-within
+{ 
+    outline:solid .2em #4a90e2; 
+    outline-offset: .2em; 
+} */
+
+
+
+/* Input */
+
+.rating_input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+}
+
+.rating_input:focus~.rating_focus {
+    position: absolute;
+    top: -.2em;
+    right: -.2em;
+    bottom: -.2em;
+    left: -.2em;
+    z-index: -1;
+    outline: solid .2em #4a90e2;
+    /* outline-offset: .2em;  */
+}
+
+
+
+
+
+/* Star */
+
+.rating_star {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 2em;
+    height: 2em;
+    /* background-color: #9b9b9b;  */
+    -moz-appearence: none;
+    -webkit-appearance: none;
+    appearance: none;
+
+    font-size: inherit;
+    margin: 0;
+    background-size: 2em 1.9em;
+    background-repeat: repeat-x;
+
+}
+
+.rating_star:focus {
+    outline: none;
+}
+
+.rating_star:focus~.rating_focus {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    outline: solid .2em #4a90e2;
+    outline-offset: .2em;
+}
+
+
+
+
+.rating_input:checked+.rating_star,
+.rating_star:hover {
+    background-image: url("https://cdn.glitch.com/be154eac-f8a7-4b55-9350-27cb2d6ff6c0%2Fon.svg?1552261455791")
+}
+
+
+.rating_star:hover~.rating_star {
+    background-image: url("https://cdn.glitch.com/be154eac-f8a7-4b55-9350-27cb2d6ff6c0%2Foff.svg?1552261455753");
+
+}
+
+
+
+/* Options */
+
+.rating_star:nth-of-type(1) {
+    z-index: 5;
+    width: 2em;
+}
+
+.rating_star.rating_star:nth-of-type(2) {
+    z-index: 4;
+    width: 4em;
+}
+
+.rating_star.rating_star:nth-of-type(3) {
+    z-index: 3;
+    width: 6em;
+}
+
+
+.rating_star.rating_star:nth-of-type(4) {
+    z-index: 2;
+    width: 8em;
+}
+
+.rating_star.rating_star:nth-of-type(5) {
+    z-index: 1;
+    width: 10em;
+}
+
+
+
+
+
+
+
 
 /*-----------------------------------------------------------------------------------*/
 /*  Pages
@@ -102,6 +231,19 @@ td,
 /*-----------------------------------------------------------------------------------*/
 /*  Journal
 /*-----------------------------------------------------------------------------------*/
+
+.journal-info {
+    background-color: #555;
+    padding: 10px;
+}
+
+.journal-info:hover {
+    transition: .2s ease-in;
+    background-color: #777;
+
+
+}
+
 
 #journal,
 #journal-blog {
