@@ -25,7 +25,7 @@ if (isset($_POST["insert"]))
   
 
   insertUser($login, $email, $password);
-  exit();
+  
 }
 
 
