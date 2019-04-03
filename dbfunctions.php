@@ -27,7 +27,7 @@ function insertUser($username, $email, $password) {
   include($connect_file);
   try {
     $insert = $db->prepare("insert into users (login, email, password) values (?,?,?)");
-    $insert->bindValue(1, $username);
+    $insert->bindValue(1, $login);
     $insert->bindValue(2, $email);
     $insert->bindValue(3, $password);
     $insert->execute();

@@ -1,4 +1,6 @@
-    <form  method="post" action="<?php echo htmlentities($_SERVER['PHP_SELF']);?>"  enctype="multipart/form-data">
+    
+    
+    <form  method="post" action="registered.php"  enctype="multipart/form-data">
         <div class="field-name">
             <i class="fas fa-user" style="color:black;"></i>
             <input type="text" placeholder="Enter your desired Username" name = "login" required>
@@ -45,26 +47,20 @@ include('dbfunctions.php');
   
 
 <?php
-/* if the form insert button was clicked then get the values from the POST and insert the product in the database... */
-if (isset($_POST["insert"]))
+// if (isset($_POST["insert"]))
 
-{
+// {
 
-header("Location: http://www.yourwebsite.com/user.php"); /* Redirect browser */
 
   
-  $login = $_POST["login"];
-  $email = $_POST["email"];
-  $password = $_POST["password"];
-
-  
-  
-
-  insertUser($login, $email, $password);
-  exit();
-}
+//   $login = $_POST["login"];
+//   $email = $_POST["email"];
+//   $password = $_POST["password"];
 
 
+//   insertUser($login, $email, $password);
+//   exit();
+// }
 ?>
 
     
